@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BIF VERSION="0.3"  xmlns="http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3 http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3/XMLBIFv0_3.xsd">
+<NETWORK>
+<NAME>Untitled</NAME>
+<PROPERTY>detailed = </PROPERTY>
+<PROPERTY>short = </PROPERTY>
+
+<VARIABLE TYPE="nature">
+	<NAME>A</NAME>
+	<OUTCOME>T</OUTCOME>
+	<OUTCOME>F</OUTCOME>
+    <OUTCOME>D</OUTCOME>
+	<PROPERTY>position = (7150.0, 5162.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>B</NAME>
+	<OUTCOME>T</OUTCOME>
+	<OUTCOME>F</OUTCOME>
+	<PROPERTY>position = (7271.0, 5167.0)</PROPERTY>
+</VARIABLE>
+
+<DEFINITION>
+	<FOR>A</FOR>
+	<TABLE>0.05 0.75 0.2</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>B</FOR>
+	<GIVEN>A</GIVEN>
+	<TABLE>0.05 0.95 0.8 0.2 -0.6 1.6</TABLE>
+</DEFINITION>
+
+</NETWORK>
+</BIF>
