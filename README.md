@@ -1,7 +1,7 @@
 # CS5011 Artificial Intelligence Practice
 
 This repository demonstrates work completed as part of the **CS5011 Artificial Intelligence Practice** module at the University of St Andrews.
-Specifically, four different AI practice domains were considered: search, uncertainty, logic, and learning.
+Specifically, four different AI practice domains were considered: Search, Uncertainty, Logic, and Learning.
 
 ## A1 - Search - Marine Navigation Planner
 
